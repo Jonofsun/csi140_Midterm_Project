@@ -81,14 +81,14 @@ footer {
   position: relative;
   margin: auto;
 }
-.mySlides .mySlides-image-right{
+/* .mySlides .mySlides-image-right{
     height: auto;
     background: grey;
     
-}
-.mySlides .mySlides-image-right:hover{
+} */
+/* .mySlides .mySlides-image-right:hover{
     box-shadow: 0 0 25px black;
-}
+} */
 .mySlides-text{
     width: 50%;
     display: inline-block;
@@ -96,12 +96,14 @@ footer {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
-.mySlides-text-left{
-    left: 1%;
+.mySlides-text-right{
+    position: absolute;
+    top: 25%;
+    left: 50%;
 }
 /* Hide the images by default */
 .mySlides {
-  /* display: flow-root; */
+  display: block;
   position: relative;
 }
 
