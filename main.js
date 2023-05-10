@@ -26,3 +26,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+// This is not code that I wrote; I'm using it to controll my carousel.
+// Code barrowed from W3 tutorial.
